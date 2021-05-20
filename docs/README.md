@@ -11,5 +11,5 @@ This is a Discord bot template that includes the following:
 - [Git v2.31.x](https://git-scm.com/downloads)
 - [VS C++ Tools 2019](https://visualstudio.microsoft.com/downloads/#vstool-2019-family)
 - [Python 2.7.x](https://www.python.org/downloads/release/python-2718/)
-- Install [node-gyp](https://www.npmjs.com/package/node-gyp) [node-pre-gyp](https://www.npmjs.com/package/@mapbox/node-pre-gyp) globally.
+- Install [node-gyp](https://www.npmjs.com/package/node-gyp) and [node-pre-gyp](https://www.npmjs.com/package/@mapbox/node-pre-gyp) globally.
 - Run `install.bat` before you start up the bot.
