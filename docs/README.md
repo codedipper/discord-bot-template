@@ -1,4 +1,4 @@
-# Discord Bot Template
+# Discord Bot Template (WIP)
 ## About
 This is a Discord bot template that includes the following:
 - A fully automatic command handler.
