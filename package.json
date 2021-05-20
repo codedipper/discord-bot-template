@@ -1,0 +1,20 @@
+{
+	"name": "discord-bot-template",
+	"version": "4.0.0-beta",
+	"description": "Discord bot template built on Discord.js master.",
+	"main": "index.js",
+	"scripts": {
+		"start": "node index.js",
+		"install": "npm i discordjs/discord.js#master enmap@5.8.x eslint@7.26.x --save"
+	},
+	"repository": "codedipper/project-holder",
+	"author": "Reverse",
+	"license": "MIT",
+	"dependencies": {
+		"discord.js": "github:discordjs/discord.js#master",
+		"enmap": "5.8.x"
+	},
+	"devDependencies": {
+		"eslint": "^7.26.0"
+	}
+}
