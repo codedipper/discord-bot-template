@@ -5,7 +5,8 @@
 	"main": "index.js",
 	"scripts": {
 		"start": "node index.js",
-		"install": "npm i discordjs/discord.js#master enmap@5.8.x eslint@7.26.x --save"
+		"install": "npm i discordjs/discord.js#master enmap@5.8.x --save",
+		"postinstall": "npm i eslint@7.26.x --save-dev"
 	},
 	"repository": "codedipper/project-holder",
 	"author": "Reverse",
@@ -15,6 +16,6 @@
 		"enmap": "5.8.x"
 	},
 	"devDependencies": {
-		"eslint": "^7.26.0"
+		"eslint": "7.26.x"
 	}
 }
