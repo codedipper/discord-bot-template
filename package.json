@@ -1,6 +1,6 @@
 {
 	"name": "discord-bot-template",
-	"version": "4.0.0-beta",
+	"version": "4.0.0",
 	"description": "Discord bot template built on Discord.js.",
 	"main": "index.js",
 	"scripts": {
