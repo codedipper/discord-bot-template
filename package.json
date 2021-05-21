@@ -5,8 +5,7 @@
 	"main": "index.js",
 	"scripts": {
 		"start": "node index.js",
-		"install": "npm i discord.js@12.5.x enmap@5.8.x --save",
-		"postinstall": "npm i eslint@7.26.x --save-dev"
+		"install": "npm i discord.js@12.5.x enmap@5.8.x --save"
 	},
 	"repository": "codedipper/project-holder",
 	"author": "Reverse",
