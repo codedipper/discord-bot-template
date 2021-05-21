@@ -7,7 +7,7 @@ This is a Discord bot template that includes the following:
 - Help command.
 ## Requirements
 - [Node.js v14.x.x](https://nodejs.org/en/)
-- [Npm v7.x.x)](https://www.npmjs.com/package/npm) (Usually comes with Node.)
+- [Npm v7.x.x](https://www.npmjs.com/package/npm) (Usually comes with Node.)
 - [VS C++ Tools 2019](https://visualstudio.microsoft.com/downloads/#vstool-2019-family)
 - [Python 2.7.x](https://www.python.org/downloads/release/python-2718/)
 - Install [node-gyp](https://www.npmjs.com/package/node-gyp) globally.
