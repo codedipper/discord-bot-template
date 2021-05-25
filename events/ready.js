@@ -6,7 +6,7 @@ module.exports = client => {
 			status: "idle",
 			activity: {
 				name: `${client.prefix}help`,
-				type: "WATCHING"
+				type: "LISTENING"
 			}
 		});
 	};
