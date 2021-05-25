@@ -1,13 +1,16 @@
 module.exports = client => {
 	console.log(`${client.user.username} is up and running!`);
 	
-	setInterval(() => {
+	function setPresence(){
 		client.user.setPresence({
 			status: "idle",
 			activity: {
 				name: `${client.prefix}help`,
-				type: "LISTENING"
+				type: "WATCHING"
 			}
 		});
-	}, 6e4);
+	};
+	
+	setPresence();
+	setInterval(setPresence, 6e4);
 };
