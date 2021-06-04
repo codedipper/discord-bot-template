@@ -33,7 +33,7 @@ readdir("./events/", (err, files) => {
 		const event = require(`./events/${file}`);
 		let eventName = file.split(".")[0];
 
-		if (file.toLowerCase() == "event.js"){
+		if (file.toLowerCase() == "ready.js"){
 			client.once(eventName, event.bind(null, client));
 			return;
 		}
